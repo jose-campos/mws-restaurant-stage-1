@@ -54,9 +54,14 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+	position: relative;
 }
 nav h1 {
   margin: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 nav h1 a {
   color: #fff;
@@ -272,4 +277,13 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* Utils */
+.clearfix {
+	&::after {
+		display: block;
+		content: "";
+		clear: both;
+	}
 }

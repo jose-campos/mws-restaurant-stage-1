@@ -1,0 +1,32 @@
+{
+  "name": "udacity-restaurant-1",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-campos/mws-restaurant-stage-1.git"
+  },
+  "author": "Jose Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-campos/mws-restaurant-stage-1/issues"
+  },
+  "homepage": "https://github.com/jose-campos/mws-restaurant-stage-1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^20.2.0"
+  },
+  "dependencies": {
+    "grunt-http-server": "^2.1.0",
+    "npm": "^6.1.0"
+  }
+}
